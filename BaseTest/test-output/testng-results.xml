@@ -1,25 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4140" started-at="2018-11-14T05:08:09Z" finished-at="2018-11-14T05:08:13Z">
+  <suite name="Suite" duration-ms="20542" started-at="2018-11-14T07:26:39Z" finished-at="2018-11-14T07:27:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4140" started-at="2018-11-14T05:08:09Z" finished-at="2018-11-14T05:08:13Z">
-      <class name="tests.Sample">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.Sample@17dd107]" name="beforeSuite" is-config="true" duration-ms="6159" started-at="2018-11-14T05:08:03Z" finished-at="2018-11-14T05:08:09Z">
+    <test name="Test" duration-ms="7680" started-at="2018-11-14T07:26:39Z" finished-at="2018-11-14T07:26:47Z">
+      <class name="tests.Sample2">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample2@1723e30]" name="beforeSuite" is-config="true" duration-ms="2110" started-at="2018-11-14T07:26:44Z" finished-at="2018-11-14T07:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.0.1.19:5577]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample@17dd107]" name="homepageTests" duration-ms="4099" started-at="2018-11-14T05:08:09Z" finished-at="2018-11-14T05:08:13Z">
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample2@1723e30]" name="homepageTests" duration-ms="133" started-at="2018-11-14T07:26:46Z" finished-at="2018-11-14T07:26:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepageTests -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample@17dd107]" name="afterSuite" is-config="true" duration-ms="796" started-at="2018-11-14T05:08:13Z" finished-at="2018-11-14T05:08:14Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample2@1723e30]" name="afterSuite" is-config="true" duration-ms="606" started-at="2018-11-14T07:26:47Z" finished-at="2018-11-14T07:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.Sample2 -->
+      <class name="tests.Sample">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample@1bd930a]" name="beforeSuite" is-config="true" duration-ms="3640" started-at="2018-11-14T07:26:39Z" finished-at="2018-11-14T07:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.0.1.19:5577]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample@1bd930a]" name="homepageTests" duration-ms="545" started-at="2018-11-14T07:26:43Z" finished-at="2018-11-14T07:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTests -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample@1bd930a]" name="afterSuite" is-config="true" duration-ms="612" started-at="2018-11-14T07:26:44Z" finished-at="2018-11-14T07:26:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- tests.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="20542" started-at="2018-11-14T07:26:39Z" finished-at="2018-11-14T07:27:00Z">
+      <class name="tests.Sample2">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample2@3fc542]" name="beforeSuite" is-config="true" duration-ms="4937" started-at="2018-11-14T07:26:51Z" finished-at="2018-11-14T07:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.0.1.19:5565]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample2@3fc542]" name="homepageTests" duration-ms="3983" started-at="2018-11-14T07:26:56Z" finished-at="2018-11-14T07:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTests -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample2@3fc542]" name="afterSuite" is-config="true" duration-ms="378" started-at="2018-11-14T07:27:00Z" finished-at="2018-11-14T07:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.Sample2 -->
+      <class name="tests.Sample">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample@4a2ea6]" name="beforeSuite" is-config="true" duration-ms="6469" started-at="2018-11-14T07:26:39Z" finished-at="2018-11-14T07:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.0.1.19:5565]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample@4a2ea6]" name="homepageTests" duration-ms="4352" started-at="2018-11-14T07:26:46Z" finished-at="2018-11-14T07:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTests -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample@4a2ea6]" name="afterSuite" is-config="true" duration-ms="408" started-at="2018-11-14T07:26:50Z" finished-at="2018-11-14T07:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.Sample -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
