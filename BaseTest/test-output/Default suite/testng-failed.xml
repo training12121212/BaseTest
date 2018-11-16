@@ -7,7 +7,9 @@
         <methods>
           <include name="beforeSuite"/>
           <include name="homepageTests"/>
+          <include name="reportInitiliaze"/>
           <include name="afterSuite"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- tests.Sample -->
     </classes>
