@@ -2,20 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="5" name="Suite" parallel="tests">
 	<test name="Test">
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="local" />
 		<parameter name="ipAddress" value="http://10.0.1.19:5577" />
 		<classes>
 			<class name="tests.Sample" />
-			<class name="tests.Sample2" />
 		</classes>
 	</test> <!-- Test -->
 
 	<test name="Test2">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="local" />
 		<parameter name="ipAddress" value="http://10.0.1.19:5565" />
 		<classes>
 			<class name="tests.Sample2" />
-			<class name="tests.Sample" />
 		</classes>
 	</test> <!-- Test -->
 	

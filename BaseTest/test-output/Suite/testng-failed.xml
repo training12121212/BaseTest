@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test2(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="ipAddress" value="http://10.0.1.19:5565"/>
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="local"/>
+    <parameter name="ipAddress" value="http://10.0.1.19:5577"/>
     <classes>
-      <class name="tests.Sample2">
+      <class name="tests.Sample">
         <methods>
           <include name="beforeSuite"/>
-          <include name="afterSuite"/>
           <include name="homepageTests"/>
+          <include name="reportInitiliaze"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- tests.Sample2 -->
+      </class> <!-- tests.Sample -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

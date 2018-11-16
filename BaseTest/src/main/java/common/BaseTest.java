@@ -25,9 +25,10 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class BaseTest {
 
 	private WebDriver driver;
-	public ExtentHtmlReporter htmlreport;
-	public ExtentReports extent;
-	public ExtentTest logger;
+	public static ExtentHtmlReporter htmlreport;
+	public static ExtentReports extent;
+	public static ExtentTest logger;
+	public final String TESTDATAPATH = ".\\src\\test\\java\\testData\\";
 
 	@Parameters({ "browser", "ipAddress" })
 	@BeforeClass
@@ -56,7 +57,7 @@ public class BaseTest {
 		// "./src/test/resources/driver/MicrosoftWebDriver.exe");
 
 		// driver = new EdgeDriver();
-		driver.get("http://newtours.demoaut.com/mercurywelcome.php");
+		driver.get("https://apsrtconline.in/oprs-web/");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
@@ -72,7 +73,12 @@ public class BaseTest {
 	public WebDriver getDriver() {
 		return driver;
 	}
-
+	public ExtentTest getLogger() {
+		return logger;
+	}
+	public ExtentReports getExtent() {
+		return extent;
+	}
 	@BeforeSuite
 	public void reportInitiliaze() {
 		htmlreport = new ExtentHtmlReporter("./reports/GROUPON_Results.html");

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53309" started-at="2018-11-16T01:39:57Z" finished-at="2018-11-16T01:40:50Z">
+  <suite name="Suite" duration-ms="30756" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53309" started-at="2018-11-16T01:39:57Z" finished-at="2018-11-16T01:40:50Z">
+    <test name="Test" duration-ms="28468" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:45Z">
       <class name="tests.Sample">
-        <test-method status="PASS" signature="reportInitiliaze()[pri:0, instance:tests.Sample@ac3dc3]" name="reportInitiliaze" is-config="true" duration-ms="293" started-at="2018-11-16T01:39:56Z" finished-at="2018-11-16T01:39:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportInitiliaze -->
-        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample@ac3dc3]" name="beforeSuite" is-config="true" duration-ms="43728" started-at="2018-11-16T01:39:57Z" finished-at="2018-11-16T01:40:40Z">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample@1738a82]" name="beforeSuite" is-config="true" duration-ms="7263" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:24Z">
           <params>
             <param index="0">
               <value>
@@ -20,26 +16,62 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[http://10.0.1.19:5577]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample@ac3dc3]" name="homepageTests" duration-ms="7246" started-at="2018-11-16T01:40:40Z" finished-at="2018-11-16T01:40:48Z">
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample@1738a82]" name="homepageTests" duration-ms="19112" started-at="2018-11-16T04:37:24Z" finished-at="2018-11-16T04:37:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepageTests -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.Sample@ac3dc3]" name="afterMethod" is-config="true" duration-ms="1400" started-at="2018-11-16T01:40:48Z" finished-at="2018-11-16T01:40:49Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.Sample@1738a82]" name="afterMethod" is-config="true" duration-ms="800" started-at="2018-11-16T04:37:43Z" finished-at="2018-11-16T04:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample@ac3dc3]" name="afterSuite" is-config="true" duration-ms="881" started-at="2018-11-16T01:40:49Z" finished-at="2018-11-16T01:40:50Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample@1738a82]" name="afterSuite" is-config="true" duration-ms="1265" started-at="2018-11-16T04:37:44Z" finished-at="2018-11-16T04:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- tests.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="30756" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:48Z">
+      <class name="tests.Sample2">
+        <test-method status="PASS" signature="reportInitiliaze()[pri:0, instance:tests.Sample2@11b0d2a]" name="reportInitiliaze" is-config="true" duration-ms="218" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitiliaze -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.Sample2@11b0d2a]" name="beforeSuite" is-config="true" duration-ms="7294" started-at="2018-11-16T04:37:17Z" finished-at="2018-11-16T04:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.0.1.19:5565]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="homepageTests()[pri:0, instance:tests.Sample2@11b0d2a]" name="homepageTests" duration-ms="19894" started-at="2018-11-16T04:37:24Z" finished-at="2018-11-16T04:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTests -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.Sample2@11b0d2a]" name="afterMethod" is-config="true" duration-ms="107" started-at="2018-11-16T04:37:44Z" finished-at="2018-11-16T04:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.Sample2@11b0d2a]" name="afterSuite" is-config="true" duration-ms="3446" started-at="2018-11-16T04:37:44Z" finished-at="2018-11-16T04:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.Sample2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
